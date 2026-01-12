@@ -2,6 +2,10 @@
 
 # Release Notes stage-public
 
+## Release 1.9.4
+- Compatible with DEMIS-Development-Cluster 4.4.1
+- Updated Service-Versions
+
 ## Release 1.9.3
 - Compatible with DEMIS-Development-Cluster 4.4.1
 - Updated Service-Versions
