@@ -2,6 +2,12 @@
 
 # Release Notes stage-public
 
+## Release 1.10.0
+- Compatible with DEMIS-Development-Cluster 5.1.0
+- Updated Infrastructure- and Service-Versions
+- Activated accessibility for startpage
+- Activated new header and footer in portal
+
 ## Release 1.9.4
 - Compatible with DEMIS-Development-Cluster 4.4.1
 - Updated Service-Versions

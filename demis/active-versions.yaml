@@ -28,7 +28,7 @@ fhir-storage-writer:
   enabled: true
 futs:
   main:
-    version: 2.3.3
+    version: 2.3.4
     weight: 100
   canary: {}
   chart-name: futs-delegation
@@ -36,7 +36,7 @@ futs:
   enabled: true
 futs-core:
   main:
-    version: 2.3.3
+    version: 2.3.4
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -45,7 +45,7 @@ futs-core:
   enabled: true
 futs-igs:
   main:
-    version: 2.3.3
+    version: 2.3.4
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -54,7 +54,7 @@ futs-igs:
   enabled: true
 gateway-igs:
   main:
-    version: 1.3.0
+    version: 1.3.1
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -68,7 +68,7 @@ hospital-location-service:
   enabled: true
 igs-service:
   main:
-    version: 1.3.1
+    version: 1.3.2
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -82,7 +82,7 @@ lifecycle-validation-service:
   enabled: true
 minio:
   main:
-    version: 1.1.3
+    version: 1.1.2
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -124,35 +124,35 @@ pgbouncer:
   enabled: true
 portal-bedoccupancy:
   main:
-    version: 1.5.6
+    version: 1.5.7
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-disease:
   main:
-    version: 1.5.1
+    version: 1.5.2
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-igs:
   main:
-    version: 1.3.2
+    version: 1.3.4
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-pathogen:
   main:
-    version: 1.6.3
+    version: 1.6.4
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-shell:
   main:
-    version: 1.4.2
+    version: 1.4.3
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -285,7 +285,7 @@ notification-routing-data:
   enabled: true
 ars-service:
   main:
-    version: 1.2.3
+    version: 1.2.4
     weight: 100
   canary: {}
   deployment-strategy: canary

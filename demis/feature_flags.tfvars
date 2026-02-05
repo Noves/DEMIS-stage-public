@@ -6,13 +6,13 @@ feature_flags = [
     flag_value = true
   },
   {
-    services   = ["futs-core", "futs-igs", "portal-disease"]
-    flag_name  = "FEATURE_FLAG_DISEASE_DATEPICKER"
-    flag_value = true
-  },
-  {
     services   = ["surveillance-pseudonym-service-ars"]
     flag_name  = "FEATURE_FLAG_INDIVIDUAL_PSEUDONYM"
+    flag_value = false
+  },
+  {
+    services   = ["ars-service", "fhir-storage-reader", "notification-processing-service"]
+    flag_name  = "FEATURE_FLAG_MOVE_ERROR_ID_TO_DIAGNOSTICS"
     flag_value = false
   },
   {
@@ -31,13 +31,13 @@ feature_flags = [
     flag_value = true
   },
   {
-    services   = ["portal-shell"]
-    flag_name  = "FEATURE_FLAG_PORTAL_INFOBANNER"
+    services   = ["portal-bedoccupancy", "portal-disease", "portal-igs", "portal-pathogen", "portal-shell"]
+    flag_name  = "FEATURE_FLAG_PORTAL_HEADER_FOOTER"
     flag_value = true
   },
   {
-    services   = ["portal-bedoccupancy", "portal-disease", "portal-pathogen"]
-    flag_name  = "FEATURE_FLAG_PORTAL_PASTEBOX"
+    services   = ["portal-shell"]
+    flag_name  = "FEATURE_FLAG_PORTAL_WELCOME_PAGE_A11Y"
     flag_value = true
   },
   {
