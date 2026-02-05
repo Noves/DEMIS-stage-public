@@ -13,13 +13,13 @@ stage_name = "public"
 cluster_region = "public"
 
 # Service Mesh Options
-service_mesh_istio_version      = "1.25.2"
-service_mesh_kiali_version      = "2.8.0"
-service_mesh_jaeger_version     = "2.5.0"
-service_mesh_jaeger_digest      = "sha256:20d715ade1cf32e8c2be1a288317c2126376ce60811be71f0856793d7f849127"
-service_mesh_grafana_version    = "11.6.1"
-service_mesh_grafana_digest     = "sha256:52c3e20686b860c6dc1f623811565773cf51eefa378817a4896dfc863c3c82c8"
-service_mesh_prometheus_version = "27.11.0"
+service_mesh_istio_version      = "1.28.1"
+service_mesh_kiali_version      = "2.19.0"
+service_mesh_jaeger_version     = "2.12.0"
+service_mesh_jaeger_digest      = "sha256:4c8423cd8fa8b727bd632f0acda2cc39118f21a4bdcef322a6c9ddbeb6dcd424"
+service_mesh_grafana_version    = "12.1.4"
+service_mesh_grafana_digest     = "sha256:553160ed532b89bac217ffd424c2d7fb62a1dfbc49685d29993795b77e9cea9a"
+service_mesh_prometheus_version = "27.50.0"
 # Number of replicas for the Istiod services
 service_mesh_istiod_replica_count = 3
 # Enable the deployment of Monitoring Services (Grafana, Prometheus)
