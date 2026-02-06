@@ -29,6 +29,9 @@ demis:
       enabled: true
   sps:
     arsEnabled: true
+  dls:
+    internal:
+      enabled: true
 # Mesh Services Policies
 mesh:
   enabled: false

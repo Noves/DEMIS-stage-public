@@ -28,7 +28,7 @@ fhir-storage-writer:
   enabled: true
 futs:
   main:
-    version: 2.3.4
+    version: 2.4.0
     weight: 100
   canary: {}
   chart-name: futs-delegation
@@ -36,7 +36,7 @@ futs:
   enabled: true
 futs-core:
   main:
-    version: 2.3.4
+    version: 2.4.0
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -45,7 +45,7 @@ futs-core:
   enabled: true
 futs-igs:
   main:
-    version: 2.3.4
+    version: 2.4.0
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -75,35 +75,35 @@ igs-service:
   enabled: true
 lifecycle-validation-service:
   main:
-    version: 1.4.1
+    version: 1.4.2
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 minio:
   main:
-    version: 1.1.2
+    version: 1.1.3
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 notification-gateway:
   main:
-    version: 6.7.6
+    version: 6.7.7
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 notification-processing-service:
   main:
-    version: 2.8.0
+    version: 2.9.0
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 notification-routing-service:
   main:
-    version: 2.5.0
+    version: 2.5.1
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -124,14 +124,14 @@ pgbouncer:
   enabled: true
 portal-bedoccupancy:
   main:
-    version: 1.5.7
+    version: 1.5.8
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-disease:
   main:
-    version: 1.5.2
+    version: 1.5.3
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -145,14 +145,14 @@ portal-igs:
   enabled: true
 portal-pathogen:
   main:
-    version: 1.6.4
+    version: 1.6.5
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 portal-shell:
   main:
-    version: 1.4.3
+    version: 1.4.4
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -187,7 +187,7 @@ report-processing-service:
   enabled: true
 validation-service:
   main:
-    version: 2.10.1
+    version: 2.11.0
     weight: 100
   canary: {}
   chart-name: validation-service-delegation
@@ -195,7 +195,7 @@ validation-service:
   enabled: true
 validation-service-core:
   main:
-    version: 2.10.1
+    version: 2.11.0
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -204,7 +204,7 @@ validation-service-core:
   enabled: true
 validation-service-igs:
   main:
-    version: 2.10.1
+    version: 2.11.0
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -213,7 +213,7 @@ validation-service-igs:
   enabled: true
 validation-service-ars:
   main:
-    version: 2.10.1
+    version: 2.11.0
     weight: 100
   canary: {}
   synchronize-profiles: false
@@ -229,14 +229,14 @@ network-rules:
   enabled: true
 policies-authentications:
   main:
-    version: 2.7.0
+    version: 2.8.0
     weight: 100
   canary: {}
   deployment-strategy: update
   enabled: true
 policies-authorizations:
   main:
-    version: 2.7.0
+    version: 2.8.0
     weight: 100
   canary: {}
   deployment-strategy: update

@@ -6,6 +6,16 @@ feature_flags = [
     flag_value = true
   },
   {
+    services   = ["notification-processing-service", "lifecycle-validation-service"]
+    flag_name  = "FEATURE_FLAG_CODEMAPPING_SERVICE_BASE"
+    flag_value = true
+  },
+  {
+    services   = ["lifecycle-validation-service"]
+    flag_name  = "FEATURE_FLAG_FHIRPATH_VALIDATION_ENABLED"
+    flag_value = true
+  },
+  {
     services   = ["surveillance-pseudonym-service-ars"]
     flag_name  = "FEATURE_FLAG_INDIVIDUAL_PSEUDONYM"
     flag_value = false
@@ -51,18 +61,8 @@ feature_flags = [
     flag_value = true
   },
   {
-    services   = ["futs-core", "futs-igs", "notification-gateway"]
-    flag_name  = "FEATURE_FLAG_SNAPSHOT_6_ACTIVE"
-    flag_value = true
-  },
-  {
     services   = ["ars-service"]
     flag_name  = "FEATURE_FLAG_SURVEILLANCE_PSEUDONYM_SERVICE_ENABLED"
     flag_value = false
-  },
-  {
-    services   = ["notification-processing-service", "notification-routing-service"]
-    flag_name  = "FEATURE_FLAG_TUBERCULOSIS_ROUTING_ENABLED"
-    flag_value = true
   }
 ]
