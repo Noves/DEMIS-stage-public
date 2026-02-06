@@ -2,6 +2,11 @@
 
 # Release Notes stage-public
 
+## Release 1.10.1
+- Compatible with DEMIS-Development-Cluster 5.2.0
+- updated service versions
+- activated fhir path validation in lifecycle validation service
+
 ## Release 1.10.0
 - Compatible with DEMIS-Development-Cluster 5.1.0
 - Updated Infrastructure- and Service-Versions
