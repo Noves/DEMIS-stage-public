@@ -152,7 +152,7 @@ portal-pathogen:
   enabled: true
 portal-shell:
   main:
-    version: 1.4.4
+    version: 1.5.0
     weight: 100
   canary: {}
   deployment-strategy: canary
@@ -229,14 +229,14 @@ network-rules:
   enabled: true
 policies-authentications:
   main:
-    version: 2.8.0
+    version: 2.9.0
     weight: 100
   canary: {}
   deployment-strategy: update
   enabled: true
 policies-authorizations:
   main:
-    version: 2.8.0
+    version: 2.9.0
     weight: 100
   canary: {}
   deployment-strategy: update

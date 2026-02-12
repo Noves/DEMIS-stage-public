@@ -1,7 +1,7 @@
 # If active, as default all traffic is denied
 allowNothing: true
 
-ekmTemplate:
+are:
   enabled: true
 
 postgres:
@@ -20,3 +20,5 @@ tcp:
   principals:
     enabled: true
 
+featureFlags:
+  newApiEndpoints: ${feature_flag_new_api_endpoints}

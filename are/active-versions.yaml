@@ -1,27 +1,57 @@
-service-demo:
+are-gateway:
   main:
-    version: 1.0.0
+    version: 0.1.1
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
+are-notification-processing-service:
+  main:
+    version: 0.1.2
+    weight: 100
+  canary: {}
+  deployment-strategy: canary
+  enabled: true
+validation-service-are:
+  main:
+    version: 2.10.1
+    weight: 100
+  canary: {}
+  synchronize-profiles: false
+  chart-name: validation-service
+  deployment-strategy: canary
+  enabled: true
+are-profile-snapshots:
+  main:
+    version: 1.0.1
+    weight: 100
+  canary: {}
+  deployment-strategy: update
+  enabled: true
 policies-authentications:
   main:
-    version: 2.4.0
+    version: 2.9.0
     weight: 100
   canary: {}
   deployment-strategy: update
   enabled: true
 policies-authorizations:
   main:
-    version: 2.4.0
+    version: 2.9.0
     weight: 100
   canary: {}
   deployment-strategy: update
   enabled: true
+portal-are:
+  main:
+    version: 0.1.0
+    weight: 100
+  canary: {}
+  deployment-strategy: canary
+  enabled: true
 istio-routing:
   main:
-    version: 1.2.0
+    version: 1.3.0
     weight: 100
   canary: {}
   deployment-strategy: update

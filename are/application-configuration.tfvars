@@ -14,5 +14,7 @@ docker_registry = "docker.io/gematik1"
 kubeconfig_path = "../infrastructure/kind-config"
 # Flag to enable/disable the configuration of remote debugging for the Java Services
 debug_enabled = true
+# Settings for validation service profile provisioning mode. Possible values are: dedicated, distributed, combined
+profile_provisioning_mode_vs_igs = "dedicated"
 
 volumes = {}
