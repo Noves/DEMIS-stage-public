@@ -16,3 +16,7 @@
 #   }
 # ]
 docker_pull_secrets = []
+
+# Redis CUS Credentials (Reader)
+redis_cus_reader_user     = "reader"
+redis_cus_reader_password = "read_this_password"

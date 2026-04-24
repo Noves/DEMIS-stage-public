@@ -1,15 +1,23 @@
 are-gateway:
   main:
-    version: 0.1.2
+    version: 1.0.0
     weight: 100
   canary: {}
   deployment-strategy: canary
   enabled: true
 are-notification-processing-service:
   main:
-    version: 0.1.3
+    version: 1.0.0
     weight: 100
   canary: {}
+  deployment-strategy: canary
+  enabled: true
+validation-service:
+  main:
+    version: 2.10.1
+    weight: 100
+  canary: {}
+  chart-name: validation-service-delegation
   deployment-strategy: canary
   enabled: true
 validation-service-are:
@@ -44,7 +52,7 @@ policies-authorizations:
   enabled: true
 portal-are:
   main:
-    version: 0.1.1
+    version: 1.0.0
     weight: 100
   canary: {}
   deployment-strategy: canary
